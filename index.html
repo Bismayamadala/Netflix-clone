@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Netflix Clone</title>
+    <link rel="shortcut icon" href="./assets/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container container">
+            <div class="left-container">
+                <img class="header-brand" src="./assets/name.png" alt="">
+                <ul class="main-nav">
+                    <li class="nav-item"><a href="">Home</a></li>
+                    <li class="nav-item"><a href="">Tv Shows</a></li>
+                    <li class="nav-item"><a href="">Movies</a></li>
+                    <li class="nav-item"><a href="">News & Popular</a></li>
+                    <li class="nav-item"><a href="">My List</a></li>
+                    <li class="nav-item"><a href="">Browse by language</a></li>
+
+                </ul>
+            </div>
+            <div class="right-container">
+                <input type="text" class="search-box" id="searchBox" placeholder="Titles,people,genres" >
+                <i class="fa fa-search" aria-hidden="true" id="searchIcon"></i>
+                <img src="https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABcJE6sna7-v-fDszqTSTLqoNLNTV8u6FCGOehw7JKWVmU-oLMoXYX6K0f2nKdOFZcATnH9GAw2kgTZTxZj1cEPt9GYnRYbc.png?r=54d" alt="">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <img src="https://occ-0-3365-2186.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY20DrC9-11ewwAs6nfEgb1vrORxRPP9IGmlW1WtKuaLIz8VxCx5NryzDK3_ez064IsBGdXjVUT59G5IRuFdqZlCJCneepU.png?r=229" alt="">
+            </div>
+        </div>
+    </header>
+    <div id="results"></div>
+    <div class="banner-section" id="banner-section" >
+        <div class="banner-fade"></div>
+       
+    </div>
+    <div class="movies-cont container" id="movie-cont">
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
