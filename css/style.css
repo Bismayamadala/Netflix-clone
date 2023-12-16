@@ -219,7 +219,8 @@ width: inherit;
     display: block;
 }
 .movies-item:hover{
-    transform: scale(1.4);
+    hight: 180px;
+    width: 300px;
     transition: transform ease 300ms;
     transform-origin: center;
 }
